@@ -25,27 +25,6 @@ pip install pypi
 pip install timm==1.0.7 thop efficientnet_pytorch==0.7.1 einops grad-cam==1.4.8 dill==0.3.8 albumentations==1.4.11 pytorch_wavelets==1.3.0 tidecv PyWavelets opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install -e .
 ```
-
-```bash
-from ultralytics import YOLO
-
-# Load a model
-model = YOLO("LabPPE-DS.yaml") # pase model
-
-# Train the model
-model.train(
-                data='data.yaml', # pase your dataset
-                cache=False,
-                imgsz=640,
-                epochs=300,
-                batch=32,
-                close_mosaic=0,
-                workers=4, 
-                optimizer='SGD', 
-                project='runs/train',
-                name='exp',
-)
-```
 ## LabPPE-DS Dataset
 ```bash
 @misc{safety-lab_dataset,
@@ -61,3 +40,13 @@ model.train(
   note = { visited on 2025-04-18 },
 }
 ```
+## Structure of the LabPPE-DS
+![LabPPE-DS](https://github.com/user-attachments/assets/7fc7c083-e36c-489e-b302-f5772fbd7411)
+
+## Channel prune
+![channels_chart](https://github.com/user-attachments/assets/0ad92097-d19e-495d-a722-98f42e52f5e9)
+
+## Deployment
+![Deployment](https://github.com/user-attachments/assets/228ed620-50dc-4982-a688-0e449fdec808)
+
+
