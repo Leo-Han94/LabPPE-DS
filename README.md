@@ -5,8 +5,8 @@ Laboratory safety in higher education institutions (HEIs) is an important issue 
 ### Experimental Environment
 ✅ Python 3.10.14  
 ✅ PyTorch 2.1.0  
-✅ NVIDIA GeForce RTX 4090
-✅ Intel(R) Xeon(R) Platinum 8457C
+✅ NVIDIA GeForce RTX 4090  
+✅ Intel(R) Xeon(R) Platinum 8457C  
 ✅ Ubuntu 22.04
 
   Training parameter setting
