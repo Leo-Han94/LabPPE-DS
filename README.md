@@ -26,7 +26,7 @@ pip install timm==1.0.7 thop efficientnet_pytorch==0.7.1 einops grad-cam==1.4.8 
 pip install -e .
 ```
 ### Train
-You can choose LabPPE-DS's model in [LabPPE-DS.yaml](https://raw.githubusercontent.com/Leo-Han94/PolyP-DeNet/refs/heads/main/ultralytics/cfg/models/11/Polyp-DeNet.yaml)
+You can choose LabPPE-DS's model in [LabPPE-DS.yaml](https://raw.githubusercontent.com/Leo-Han94/LabPPE-DS/refs/heads/main/ultralytics/cfg/models/11/LabPPE-DS.yaml)
 ```bash
 from ultralytics import YOLO
 
