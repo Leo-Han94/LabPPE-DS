@@ -25,8 +25,7 @@ pip install pypi
 pip install timm==1.0.7 thop efficientnet_pytorch==0.7.1 einops grad-cam==1.4.8 dill==0.3.8 albumentations==1.4.11 pytorch_wavelets==1.3.0 tidecv PyWavelets opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install -e .
 ```
-### Train
-You can choose LabPPE-DS's model in [LabPPE-DS.yaml](https://raw.githubusercontent.com/Leo-Han94/LabPPE-DS/refs/heads/main/ultralytics/cfg/models/11/LabPPE-DS.yaml)
+
 ```bash
 from ultralytics import YOLO
 
